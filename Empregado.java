@@ -14,12 +14,20 @@ public class Empregado{
         return idade;
     }
 
+    public int getTipo(){
+        return tipo;
+    }
+    
     public void setNome(String nome){
         this.nome = nome;
     }
 
     public void setIdade(int idade){
         this.idade = idade;
+    }
+
+    public void setTipo (int tipo){
+        this.tipo = tipo;
     }
 
     public double calculaSalario(){
